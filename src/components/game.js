@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import useCustom from './customHook';
-import fetchEntities from "./api";
+import useCustom from './../customHook';
+import fetchEntities from "./../api/";
 
 const Game = () => {
 

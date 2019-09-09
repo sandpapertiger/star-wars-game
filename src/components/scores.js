@@ -1,5 +1,5 @@
 import React from 'react'
-import useCustom from './customHook';
+import useCustom from './../customHook';
 
 const Scores = () => {
     const [globalState] = useCustom();
